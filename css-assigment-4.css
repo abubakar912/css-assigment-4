@@ -8,19 +8,25 @@
 }
 
 .navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: space-between;
     height: 100px;
     border-bottom: 1.5px solid #F0F0F0;
+    background-color: white;
+    z-index: 1000
 }
 
 .logo{
-    
+    position: relative;
     height: 100%;
     width: 20%;
 }
 
 .anchors{
+    position: relative;
     margin-right: 30px;
     height: 100%;
     width: 40%;
@@ -103,11 +109,13 @@
     display: inline-block;
     width: 55%;
     margin-top: 120px;
-    height: 300px;
+    height: 400px;
+    margin-bottom: 40px;
     
 }
 
 .heading-para p{
+    
     font-family: "Raleway", sans-serif;
     padding-left:320px;
     color: gray;
@@ -115,6 +123,7 @@
 }
 
 .heading-para h1{
+    
     font-family: "Ubuntu", sans-serif;
     padding-left:320px;
     font-size: 36px;
@@ -150,11 +159,204 @@
     top: 23px;
 }
 
+
+
+
+
 .big-image{
     position: relative;
     top: 100px;
     left: 100px;
     width: 400px;
     height: 400px;
+    
+}
+
+.second-heading-para{
+    height: 120px;
+}
+
+.second-heading-para p{
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    color: #56667F;
+}
+
+.second-heading-para h1{
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    color: #1D165C;
+    position: relative;
+    top: 20px;
+}
+
+
+.four-boxes{
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.four-boxes .box1{
+    width: 18%;
+    height: 350px;
+    border: 1px solid #E1EBF7;
+    margin-left:200px;
+    border-radius: 5px;
+}
+
+.four-boxes .box2{
+    width: 18%;
+    height: 350px;
+    border: 1px solid #E1EBF7;
+    background-color: #FF4457;
+    border-radius: 5px;
+}
+
+
+.four-boxes .box3{
+    width: 18%;
+    height: 350px;
+    border: 1px solid #E1EBF7;
+    border-radius: 5px;
+}
+
+
+.four-boxes .box4{
+    width: 18%;  
+    height: 350px;
+    border: 1px solid #E1EBF7;
+    margin-right: 80px;
+    border-radius: 5px;
+}
+
+.four-boxes .box1 h3{
+    text-align: center;
+    padding-top: 25px;
+    font-family: "Ubuntu", sans-serif;
+    color: #1B1659;
+}
+
+.four-boxes .box1 img{
+    margin-left: 80px;
+    margin-top: 25px;
+    width: 70px;
+    height: 70px;
+}
+
+.four-boxes .box1 p{
+    text-align: center;
+    font-family: "railway", sans-serif;
+    color: #57667D;
+    padding-top: 30px;
+}
+
+.four-boxes .box1 a{
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+    left: 70px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    color: #1C165C;
+    
+}
+
+.four-boxes .box2 h3{
+    text-align: center;
+    padding-top: 25px;
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+}
+
+.four-boxes .box2 img{
+    margin-left: 80px;
+    margin-top: 25px;
+    width: 70px;
+    height: 70px;
+}
+
+.four-boxes .box2 p{
+    text-align: center;
+    font-family: "railway", sans-serif;
+    color: white;
+    padding-top: 30px;
+}
+
+.four-boxes .box2 a{
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+    left: 70px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    color: white;
+    
+}
+
+.four-boxes .box3 h3{
+    text-align: center;
+    padding-top: 25px;
+    font-family: "Ubuntu", sans-serif;
+    color: #1B1659;
+}
+
+.four-boxes .box3 img{
+    margin-left: 80px;
+    margin-top: 25px;
+    width: 70px;
+    height: 70px;
+}
+
+.four-boxes .box3 p{
+    text-align: center;
+    font-family: "railway", sans-serif;
+    color: #57667D;
+    padding-top: 30px;
+}
+
+.four-boxes .box3 a{
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+    left: 70px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    color: #1C165C;
+    
+}
+
+.four-boxes .box4 h3{
+    text-align: center;
+    padding-top: 25px;
+    font-family: "Ubuntu", sans-serif;
+    color: #1B1659;
+}
+
+.four-boxes .box4 img{
+    margin-left: 80px;
+    margin-top: 25px;
+    width: 70px;
+    height: 70px;
+}
+
+.four-boxes .box4 p{
+    text-align: center;
+    font-family: "railway", sans-serif;
+    color: #57667D;
+    padding-top: 30px;
+}
+
+.four-boxes .box4 a{
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+    left: 70px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    color: #1C165C;
     
 }
