@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+  }
+
 .navbar{
     position: sticky;
     top: 0;
@@ -82,6 +86,11 @@
     text-decoration: none;
 }
 
+.anchors ul li a:hover{
+    color: #83141f;
+    transition: 0.5s ease-in;
+}
+
 .anchors ul li .special{
     color: brown;
 }
@@ -95,6 +104,12 @@
     color: white;
     border: none;
     cursor: pointer;
+}
+
+.button button:hover{
+    background-color: #a10919;
+    transform: scale(1.1);
+    transition: 0.6s ease;
 }
 
 .icons img{
@@ -144,6 +159,12 @@
     cursor: pointer;
 }
 
+.heading-para .heading-para-btn:hover{
+    background-color: #280561;
+    transform: scale(1.2);
+    transition: 0.5s ease;
+}
+
 .heading-para i{
     font-size: 45px;
     position: relative;
@@ -151,6 +172,11 @@
     left: 5px;
     color: #FF4457;
     cursor: pointer;
+}
+
+.heading-para i:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease;
 }
 
 .heading-para span{
@@ -204,8 +230,15 @@
     width: 18%;
     height: 350px;
     border: 1px solid #E1EBF7;
-    margin-left:200px;
+    margin-left:180px;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.four-boxes .box1:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 10px  black;
+    transition: 0.5s ease;
 }
 
 .four-boxes .box2{
@@ -214,6 +247,7 @@
     border: 1px solid #E1EBF7;
     background-color: #FF4457;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 
@@ -222,6 +256,13 @@
     height: 350px;
     border: 1px solid #E1EBF7;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.four-boxes .box3:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 10px  black;
+    transition: 0.5s ease;
 }
 
 
@@ -229,8 +270,15 @@
     width: 18%;  
     height: 350px;
     border: 1px solid #E1EBF7;
-    margin-right: 80px;
+    margin-right: 120px;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.four-boxes .box4:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 10px  black;
+    transition: 0.5s ease;
 }
 
 .four-boxes .box1 h3{
@@ -359,4 +407,711 @@
     font-weight: 700;
     color: #1C165C;
     
+}
+
+
+.third-heading-para{
+    width: 40%;
+    height: 400px;
+    float: right;
+    margin-top: 100px;
+}
+
+.third-heading-para .company-para{
+    font-family: "railway", sans-serif;
+    color: #57657F;
+    font-weight: 600;
+}
+
+.third-heading-para h1{
+    padding-top: 10px;
+    font-family: "Ubuntu", sans-serif;
+    color: #1C165C;
+}
+
+.third-heading-para .lorem-para{
+    padding-top: 40px;
+    font-family: "railway", sans-serif;
+    color: #57657F;
+}
+
+.third-heading-para button{
+    position: relative;
+    top: 30px;
+    left: 5px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: #660FF2;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    cursor: pointer;
+}
+
+.third-heading-para button:hover{
+    background-color:#280561;
+    transition: 0.3s ease;
+}
+
+.for-third-page-image{
+    display: inline-block;
+    margin-top: 100px;
+    
+}
+
+.for-third-page-image .third-page-image{
+    width:750px;
+    height: 400px;
+}
+
+.fourth-heading-para{
+    height: 500px;
+    width: 40%;
+    margin-top: 200px;
+    margin-left: 70px;
+}
+
+.fourth-heading-para .cool-feature{
+    text-transform: uppercase;
+    font-family: "railway", sans-serif;
+    font-weight: 700;
+    color: #57667D;
+    
+}
+
+.fourth-heading-para h1{
+    padding-top: 12px;
+    font-family: "Ubuntu",sans-serif;
+    color: #1B1659;
+}
+
+.fourth-heading-para .tech-para{
+    padding-top: 20px;
+    font-family: "railway",sans-serif;
+    color: #56667F;
+}
+
+.fourth-heading-para .bitcoin-png{
+    width:50px;
+    height:50px;
+    margin-top: 30px;
+    position: relative;
+    left: 5px;
+}
+
+.fourth-heading-para .bitcoin-heading{
+    position: relative;
+    bottom: 50px;
+    left: 70px;
+    font-family: "Ubuntu", sans-serif;
+    color: #1B1659;
+}
+
+.fourth-heading-para .bitcoin-para{
+    position: relative;
+    bottom: 45px;
+    left: 70px;
+    font-family: "railway", sans-serif;
+    font-size: 12px;
+    color: #56667F;
+}
+
+.fourth-heading-para .crown-png{
+    width:50px;
+    height:50px;
+    margin-top: 30px;
+    position: relative;
+    left: 5px;
+    
+}
+
+.fourth-heading-para .crown-heading{
+    position: relative;
+    bottom: 50px;
+    left: 70px;
+    font-family: "Ubuntu", sans-serif;
+    color: #1B1659;
+}
+
+.fourth-heading-para .crown-para{
+    position: relative;
+    bottom: 45px;
+    left: 70px;
+    font-family: "railway", sans-serif;
+    font-size: 12px;
+    color: #56667F;
+}
+
+.fourth-big-image{
+    position: relative;
+    bottom: 500px;
+    left: 700px;
+}
+
+.fifth-heading-para{
+    height: 120px;
+    position: relative;
+    bottom: 400px;
+}
+
+.fifth-heading-para p{
+    font-family: "railway",sans-serif;
+    font-weight: 650;
+    color: #56667F;
+    padding-left: 255px;
+    font-size: 13px;
+}
+
+.fifth-heading-para h1{
+    font-family: "Ubuntu",sans-serif;
+    color: #1B1659;
+    padding-left: 250px;
+    padding-top: 15px;
+}
+
+.images-boxes{
+    display: flex;
+    height: 500px;
+    position: relative;
+    bottom: 400px;
+    margin-top: 30px;
+}
+
+.images-boxes .img-box1{
+    background-image: url('./box-img1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20%;
+    height: 300px;
+    margin-left: 90px;
+}
+
+.images-boxes .img-box2{
+    background-image: url('./WhatsApp\ Image\ 2024-12-14\ at\ 20.31.33_f3ffda54.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20%;
+    height: 300px;
+    margin-left: 10px;
+}
+
+.images-boxes .img-box3{
+    background-image: url('./box-img-3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20%;
+    height: 300px;
+    margin-left: 10px;
+}
+
+.images-boxes .img-box4{
+    background-image: url('./box-img-4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20%;
+    height: 300px;
+    margin-left: 10px;
+}
+.six-heading-para{
+    width: 100%;
+    height: 250px;
+    position: relative;
+    bottom: 400px;
+}
+
+.six-heading-para .lets{
+    font-family: "railway", sans-serif;
+    font-weight: 700;
+    color: #56667F;
+    padding-left: 200px;
+}
+
+.six-heading-para h1{
+    font-family: "Ubuntu",sans-serif;
+    color: #1B1659;
+    padding-left: 200px;
+    padding-top: 10px;
+}
+
+.six-heading-para .h1-para{
+    font-family: "railway",sans-serif;
+    color: #56667F;
+    padding-left: 200px;
+    padding-top: 20px;
+}
+
+.six-heading-para .button-1{
+    margin-left: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 35px;
+    border: none;
+    background-color:#660FF2;
+    color: white;
+    font-family: "Ubuntu",sans-serif;
+    cursor: pointer;
+}
+
+.six-heading-para .button-1:hover{
+    background-color: #250b4e;
+    transition: 0.3s ease;
+}
+
+.six-heading-para .num-button{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    color: #FF4457;
+    border-color: #FF4457;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.six-heading-para .num-button:hover{
+    transform: scale(1.1);
+    transition: 0.4s ease;
+}
+
+.six-page-pic{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    bottom: 700px;
+    left: 700px;
+}
+
+.seven-heading-para{
+    height: 150px;
+    position: relative;
+    bottom: 600px;
+}
+
+.seven-heading-para p{
+    text-align: center;
+    font-family: "railway", sans-serif;
+    color: #56667F;
+    font-weight: 700;
+}
+
+.seven-heading-para h1{
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    color: #1C165C;
+    padding-top: 10px;
+}
+
+.three-boxes-div{
+    display: flex;
+    height: 400px;
+    position: relative;
+    bottom: 600px;
+}
+
+.three-boxes-div .box-one, .box-two, .box-three{
+    width: 20%;
+    height: 350px;
+}
+
+.three-boxes-div .box-one{
+    margin-left: 250px;
+}
+.three-boxes-div .box-two{
+    margin-left: 10px;
+}
+.three-boxes-div .box-three{
+    margin-left: 10px;
+}
+
+.three-boxes-div .box-one a{
+    position: relative;
+    left: 120px;
+    top: 20px;
+    text-decoration: none;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 20px;
+    border: 0.1px solid;
+    border-radius: 25px;
+    padding: 10px;
+    border-color:#FF4457;
+    color:#FF4457;
+}
+
+.three-boxes-div .box-one a:hover{
+    background-color: #FF4457;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.three-boxes-div .box-one h3{
+    padding-top: 60px;
+    text-align: center;
+    font-family: "ubuntu", sans-serif;
+    color: #1B1659;
+}
+
+.three-boxes-div .box-one p{
+    text-align: center;
+    padding-top: 25px;
+    font-family: "railway",sans-serif;
+    color: #56667F;
+}
+
+.three-boxes-div .box-one i{
+    font-size: 70px;
+    padding-left: 100px;
+    padding-top: 30px;
+    color: #FF4457;
+}
+
+.three-boxes-div .box-two a{
+    position: relative;
+    left: 120px;
+    top: 20px;
+    text-decoration: none;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 20px;
+    border: 0.1px solid;
+    border-radius: 25px;
+    padding: 10px;
+    border-color:#FF4457;
+    color:white;
+    background-color: #FF4457;
+}
+
+.three-boxes-div .box-two h3{
+    padding-top: 60px;
+    text-align: center;
+    font-family: "ubuntu", sans-serif;
+    color: #1B1659;
+}
+
+.three-boxes-div .box-two p{
+    text-align: center;
+    padding-top: 25px;
+    font-family: "railway",sans-serif;
+    color: #56667F;
+}
+
+.three-boxes-div .box-two i{
+    font-size: 70px;
+    padding-left: 100px;
+    padding-top: 30px;
+    color: #FF4457;
+}
+
+.three-boxes-div .box-three a{
+    position: relative;
+    left: 120px;
+    top: 20px;
+    text-decoration: none;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 20px;
+    border: 0.1px solid;
+    border-radius: 25px;
+    padding: 10px;
+    border-color:#FF4457;
+    color:#FF4457;
+    
+}
+
+.three-boxes-div .box-three a:hover{
+    background-color: #FF4457;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.three-boxes-div .box-three h3{
+    padding-top: 60px;
+    text-align: center;
+    font-family: "ubuntu", sans-serif;
+    color: #1B1659;
+}
+
+.three-boxes-div .box-three p{
+    text-align: center;
+    padding-top: 25px;
+    font-family: "railway",sans-serif;
+    color: #56667F;
+}
+
+.three-boxes-div .box-three i{
+    font-size: 70px;
+    padding-left: 100px;
+    padding-top: 30px;
+    color: #FF4457;
+}
+
+.box-num-one, .box-num-two, .box-num-three{
+    width: 23%;
+    height: 400px;
+}
+
+.box-num-one{
+    margin-left: 250px;
+}
+.box-num-two{
+    margin-left: 10px;
+}
+.box-num-three{
+    margin-left: 10px;
+    
+}
+
+.box-num-one .box-num-one-img{
+    width: 100%;
+    height: 200px;
+}
+
+.box-num-one .box-num-one-img img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.box-num-one .box-num-one-img img:hover{
+    transform: scale(1.1);
+    transition: 0.4s ease;
+}
+
+.box-num-one .box-num-one-img .date{
+    font-family: "railway",sans-serif;
+    padding-top: 20px;
+    font-size: 12px;
+    color: #56667F;
+}
+
+.box-num-one .box-num-one-img h3{
+    font-family: "Ubuntu",sans-serif;
+    color: #1C165C;
+    padding-top: 15px;
+}
+
+span{
+    color: #FF4457;
+    
+}
+
+.box-num-one .box-num-one-img .continue{
+    font-family: "Ubuntu",sans-serif;
+    padding-top: 30px;
+    color: #1C165C;
+}
+
+
+
+.box-num-two .box-num-two-img img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.box-num-two .box-num-two-img img:hover{
+    transform: scale(1.1);
+    transition: 0.4s ease;
+}
+
+
+.box-num-two .box-num-two-img .date{
+    font-family: "railway",sans-serif;
+    padding-top: 20px;
+    font-size: 12px;
+    color: #56667F;
+}
+
+.box-num-two .box-num-two-img h3{
+    font-family: "Ubuntu",sans-serif;
+    color: #1C165C;
+    padding-top: 15px;
+}
+
+span{
+    color: #FF4457;
+    
+}
+
+.box-num-two .box-num-two-img .continue{
+    font-family: "Ubuntu",sans-serif;
+    padding-top: 30px;
+    color: #1C165C;
+}
+
+.box-num-three .box-num-three-img img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.box-num-three .box-num-three-img img:hover{
+    transform: scale(1.1);
+    transition: 0.4s ease;
+}
+
+.box-num-three .box-num-three-img .date{
+    font-family: "railway",sans-serif;
+    padding-top: 20px;
+    font-size: 12px;
+    color: #56667F;
+}
+
+.box-num-three .box-num-three-img h3{
+    font-family: "Ubuntu",sans-serif;
+    color:#1C165C;
+    padding-top: 15px;
+}
+
+span{
+    color: #FF4457;
+    
+}
+
+.box-num-three .box-num-three-img .continue{
+    font-family: "Ubuntu",sans-serif;
+    padding-top: 30px;
+    color: #1C165C;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    bottom: 500px;
+    background-color: #150337;
+}
+
+footer .footer-logo-div{
+    width: 35%;
+    height: 350px;
+    margin-top: 20px;
+}
+
+
+footer .services-list, .company-list, .solution-list{
+    width: 25%;
+    height: 350px;
+    margin-top: 20px;
+}
+
+.footer-logo-div img{
+    position: absolute;
+    top: 60px;
+    left: 80px;
+    width: 80px;
+    height: 80px;
+}
+
+.footer-logo-div h2{
+    position: absolute;
+    top: 90px;
+    left: 170px;
+    font-family: "Ubuntu",sans-serif;
+    color: white;
+}
+
+.footer-logo-div p{
+    position: absolute;
+    top: 150px;
+    left: 80px;
+    color: #56667F;
+    font-family: "Railway",sans-serif;
+    font-size: 13px;
+    color: white;
+    
+}
+
+.footer-logo-div i{
+    position: relative;
+    top: 200px;
+    left: 80px;
+    font-size: 25px;
+    border: 0.5px solid white;
+    padding: 7px;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-logo-div i:hover{
+    transform: scale(1.1);
+    background-color: #FF4457;
+    transition: 0.5s ease;
+}
+
+.services-list h3{
+    text-align: center;
+    font-family: "Ubuntu",sans-serif;
+    color: white;
+    padding-top: 65px;
+
+}
+
+.services-list ul{
+    padding-top: 30px;
+    line-height: 30px;
+    padding-left: 110px;
+}
+
+.services-list ul li{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.services-list ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: "Ubuntu",sans-serif;
+}
+
+.company-list h3{
+    text-align: center;
+    font-family: "Ubuntu",sans-serif;
+    color: white;
+    padding-top: 65px;
+
+}
+
+.company-list ul{
+    padding-top: 30px;
+    line-height: 30px;
+    padding-left: 110px;
+}
+
+.company-list ul li{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.company-list ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: "Ubuntu",sans-serif;
+}
+
+.solution-list h3{
+    text-align: center;
+    font-family: "Ubuntu",sans-serif;
+    color: white;
+    padding-top: 65px;
+
+}
+
+.solution-list ul{
+    padding-top: 30px;
+    line-height: 30px;
+    padding-left: 110px;
+}
+
+.solution-list ul li{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.solution-list ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: "Ubuntu",sans-serif;
 }
